@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Software
+CMAKE_SOURCE_DIR = /home/pi/Desktop/Smart-Pets-Feeder/Software
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Software/build
+CMAKE_BINARY_DIR = /home/pi/Desktop/Smart-Pets-Feeder/Software/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Software/build/CMakeFiles /home/pi/Software/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/Smart-Pets-Feeder/Software/build/CMakeFiles /home/pi/Desktop/Smart-Pets-Feeder/Software/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Software/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/Smart-Pets-Feeder/Software/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lib
-
-# Build rule for target.
-lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lib
-.PHONY : lib
-
-# fast build rule for target.
-lib/fast:
-	$(MAKE) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/build
-.PHONY : lib/fast
-
-#=============================================================================
 # Target rules for targets named feed
 
 # Build rule for target.
@@ -133,8 +120,116 @@ feed: cmake_check_build_system
 
 # fast build rule for target.
 feed/fast:
-	$(MAKE) -f src/CMakeFiles/feed.dir/build.make src/CMakeFiles/feed.dir/build
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/build
 .PHONY : feed/fast
+
+CamThread.o: CamThread.cpp.o
+
+.PHONY : CamThread.o
+
+# target to build an object file
+CamThread.cpp.o:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/CamThread.cpp.o
+.PHONY : CamThread.cpp.o
+
+CamThread.i: CamThread.cpp.i
+
+.PHONY : CamThread.i
+
+# target to preprocess a source file
+CamThread.cpp.i:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/CamThread.cpp.i
+.PHONY : CamThread.cpp.i
+
+CamThread.s: CamThread.cpp.s
+
+.PHONY : CamThread.s
+
+# target to generate assembly for a file
+CamThread.cpp.s:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/CamThread.cpp.s
+.PHONY : CamThread.cpp.s
+
+feed.o: feed.cpp.o
+
+.PHONY : feed.o
+
+# target to build an object file
+feed.cpp.o:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/feed.cpp.o
+.PHONY : feed.cpp.o
+
+feed.i: feed.cpp.i
+
+.PHONY : feed.i
+
+# target to preprocess a source file
+feed.cpp.i:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/feed.cpp.i
+.PHONY : feed.cpp.i
+
+feed.s: feed.cpp.s
+
+.PHONY : feed.s
+
+# target to generate assembly for a file
+feed.cpp.s:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/feed.cpp.s
+.PHONY : feed.cpp.s
+
+hx711.o: hx711.cpp.o
+
+.PHONY : hx711.o
+
+# target to build an object file
+hx711.cpp.o:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/hx711.cpp.o
+.PHONY : hx711.cpp.o
+
+hx711.i: hx711.cpp.i
+
+.PHONY : hx711.i
+
+# target to preprocess a source file
+hx711.cpp.i:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/hx711.cpp.i
+.PHONY : hx711.cpp.i
+
+hx711.s: hx711.cpp.s
+
+.PHONY : hx711.s
+
+# target to generate assembly for a file
+hx711.cpp.s:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/hx711.cpp.s
+.PHONY : hx711.cpp.s
+
+motor.o: motor.cpp.o
+
+.PHONY : motor.o
+
+# target to build an object file
+motor.cpp.o:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/motor.cpp.o
+.PHONY : motor.cpp.o
+
+motor.i: motor.cpp.i
+
+.PHONY : motor.i
+
+# target to preprocess a source file
+motor.cpp.i:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/motor.cpp.i
+.PHONY : motor.cpp.i
+
+motor.s: motor.cpp.s
+
+.PHONY : motor.s
+
+# target to generate assembly for a file
+motor.cpp.s:
+	$(MAKE) -f CMakeFiles/feed.dir/build.make CMakeFiles/feed.dir/motor.cpp.s
+.PHONY : motor.cpp.s
 
 # Help Target
 help:
@@ -143,9 +238,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... lib"
 	@echo "... feed"
+	@echo "... edit_cache"
+	@echo "... CamThread.o"
+	@echo "... CamThread.i"
+	@echo "... CamThread.s"
+	@echo "... feed.o"
+	@echo "... feed.i"
+	@echo "... feed.s"
+	@echo "... hx711.o"
+	@echo "... hx711.i"
+	@echo "... hx711.s"
+	@echo "... motor.o"
+	@echo "... motor.i"
+	@echo "... motor.s"
 .PHONY : help
 
 
