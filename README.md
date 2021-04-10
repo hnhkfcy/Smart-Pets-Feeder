@@ -214,7 +214,7 @@ Project Link: [https://github.com/hnhkfcy/Smart-Pets-Feeder](https://github.com/
 * [ReadMe template](https://github.com/othneildrew/Best-README-Template)
 * [ADC](https://github.com/berndporr/wiringPi/tree/main/wiringPi)
 * [RaspiberryPi_Pin](https://pinout.xyz/pinout/i2c#)
-* [Thread](https://github.com/au6155/ComplicatedBikeLock/blob/main/ComplicatedBikeLock/src/RFIDThread.cpp)
+* [Thread](https://github.com/berndporr/cppThread/blob/master/CppThread.h)
 * [OpenCV Installation1](https://blog.csdn.net/weixin_43287964/article/details/101696036?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
 * [OpenCV installation2](https://qengineering.eu/install-opencv-4.4-on-raspberry-pi-4.html)
 * [OpenCV example](https://blog.csdn.net/shuoyueqishilove/article/details/80686143)
