@@ -150,9 +150,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-JianZhao - 2542679Z@student.gla.ac,uk
-Jiaxun Hong -2538979h@student.gla.ac,uk
-Chaoyan Fan -2595750F@student.gla.ac,uk
+JianZhao - 2542679Z@student.gla.ac.uk
+Jiaxun Hong -2538979h@student.gla.ac.uk
+Chaoyan Fan -2595750F@student.gla.ac.uk
 
 [Twitter](https://twitter.com/your_username) 
 [Youtube](https://twitter.com/your_username) 
