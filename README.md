@@ -189,12 +189,17 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact us
 
 JianZhao - 2542679Z@student.gla.ac.uk
+
 Jiaxun Hong -2538979h@student.gla.ac.uk
+
 Chaoyan Fan -2595750F@student.gla.ac.uk
 
 [Twitter](https://twitter.com/your_username) 
+
 [Youtube](https://twitter.com/your_username) 
+
 [Instagram](https://twitter.com/your_username) 
+
 [Facebook](https://twitter.com/your_username) 
 
 Project Link: [https://github.com/hnhkfcy/Smart-Pets-Feeder](https://github.com/hnhkfcy/Smart-Pets-Feeder)
