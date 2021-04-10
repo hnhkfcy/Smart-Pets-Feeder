@@ -220,7 +220,7 @@ Project Link: [https://github.com/hnhkfcy/Smart-Pets-Feeder](https://github.com/
 * [OpenCV example](https://blog.csdn.net/shuoyueqishilove/article/details/80686143)
 * [NGINX](https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md)
 * [Raspberry Pi no wifi](https://blog.csdn.net/seanblog/article/details/110204579?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-2&spm=1001.2101.3001.4242)
-* * [Raspberry Pi Tutorial](https://wiki.dfrobot.com.cn/%E6%A0%91%E8%8E%93%E6%B4%BE4B_DFR0619_DFR0618_DFR0697_WIKI)
+* [Raspberry Pi Tutorial](https://wiki.dfrobot.com.cn/%E6%A0%91%E8%8E%93%E6%B4%BE4B_DFR0619_DFR0618_DFR0697_WIKI)
 
 
 
