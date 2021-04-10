@@ -67,7 +67,7 @@ This section list  major hardware that team 15 built this project using.
  * [pcf8591 sensor](https://www.amazon.co.uk/DollaTek-Converter-PCF8591-Arduino-Raspberry/dp/B07DJ4NVRK/ref=sr_1_1?adgrpid=58791213812&dchild=1&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QdiLRovIqvJ_iHGzLyyhBKP2hwZqBEaIlkbFK25FobLYKo6sSYwrYcaAgBMEALw_wcB&hvadid=259047910301&hvdev=c&hvlocphy=9046551&hvnetw=g&hvqmt=e&hvrand=10882352435376445668&hvtargid=kwd-295662067656&hydadcr=22927_1807007&keywords=pcf8591&qid=1618090900&s=electronics&sr=1-1)
  
  ### Mechanical structure
- ![Camera holder](![Schematic](https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/Schematic_diagram.png))
+ ![Camera holder](![Schematic](https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Mechanical%20Structure/rpi_camera_mount.stl))
 
 <!-- GETTING STARTED -->
 ## Getting Started
