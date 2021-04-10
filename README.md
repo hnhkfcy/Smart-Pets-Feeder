@@ -58,13 +58,13 @@
 ### Hardware
 
 This section list  major hardware that team 15 built this project using. 
-* [RaspiberryPi-4b](https://getbootstrap.com)
-* [StepMotor](https://jquery.com)
-* [USB-Camera](https://laravel.com)
-*  [HX711](https://laravel.com)
-*  [3D-printing](https://laravel.com)
-* [Plank](https://laravel.com)
- * [pcf8591 sensor](https://laravel.com)
+* [RaspiberryPi-4b](https://uk.rs-online.com/web/p/raspberry-pi/1822096/?gclid=Cj0KCQjwmcWDBhCOARIsALgJ2Qd6O_jaYRwutcGjO6Z8gKUe2f2h8pY3Nm23oHlLHghdNgyNjcCPtfkaAu29EALw_wcB&gclsrc=aw.ds)
+* [StepMotor](https://www.mouser.co.uk/ProductDetail/Digilent/290-028?qs=2BBkhzTa%2F3DNnJbFjunbOw%3D%3D&mgh=1&vip=1&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QfzMtD2H3DoQ3uohFrVHCupWfeFwlW2XJY-3zUgsTIHqVt9wqRYIVAaAkdoEALw_wcB)
+* [USB-Camera](https://thepihut.com/products/8mp-1080p-usb-camera-module-1-4-cmos-imx219-mini-uvc?variant=32111049310270&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QczZxWO2GCtOTogRhd8Ozcjkz3XR-NHFeFaJuQIphNty8UBRW5rmcEaAtmgEALw_wcB)
+*  [HX711](https://www.amazon.co.uk/Weighting-Half-bridge-Amplifier-Bathroom-Arduino/dp/B07FMN1DBN/ref=sr_1_1_sspa?adgrpid=52942215837&dchild=1&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QdWy6OXk4GOaqIlU1PSPwmuxa_hkNtX2Z8Hue4HIUpGyRnexFG7HVsaAi6dEALw_wcB&hvadid=259046162843&hvdev=c&hvlocphy=9046551&hvnetw=g&hvqmt=e&hvrand=16638470403446013995&hvtargid=kwd-327727690284&hydadcr=22925_1807003&keywords=hx711&qid=1618090787&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyT1U3VjUwOVUxSlRJJmVuY3J5cHRlZElkPUEwNDk3MjY2MlpNRzRMVFRIVE9XMiZlbmNyeXB0ZWRBZElkPUEwNzgyMjM1MTNDMVNDV0ZBOTE4TiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
+*  [3D-printing](https://www.shapeways.com/business/3d-printing-services/?adgroup_id=120027049116&campaign_id=12607958069&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QcwmNZffgddThWcYH-9hcUdpckWtVPzAW5nqObyYgK9VBfsR2Dp1cQaAvbLEALw_wcB&target_id=kwd-685410368&utm_campaign=UK_3D-printing_Desktop_Exact&utm_content=509104377827&utm_medium=3D-printing&utm_source=adwords&utm_term=3d%20printing%20service)
+* [Plank](https://www.amazon.co.uk/Clas-Ohlson-Whitewood-Warp-Resistant-Edge-Laminated/dp/B08B1R1Y3P/ref=asc_df_B08B1R1Y3P/?tag=googshopuk-21&linkCode=df0&hvadid=447163472133&hvpos=&hvnetw=g&hvrand=13141452539728557175&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046551&hvtargid=pla-925355368073&psc=1&tag=&ref=&adgrpid=105563454404&hvpone=&hvptwo=&hvadid=447163472133&hvpos=&hvnetw=g&hvrand=13141452539728557175&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046551&hvtargid=pla-925355368073)
+ * [pcf8591 sensor](https://www.amazon.co.uk/DollaTek-Converter-PCF8591-Arduino-Raspberry/dp/B07DJ4NVRK/ref=sr_1_1?adgrpid=58791213812&dchild=1&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QdiLRovIqvJ_iHGzLyyhBKP2hwZqBEaIlkbFK25FobLYKo6sSYwrYcaAgBMEALw_wcB&hvadid=259047910301&hvdev=c&hvlocphy=9046551&hvnetw=g&hvqmt=e&hvrand=10882352435376445668&hvtargid=kwd-295662067656&hydadcr=22927_1807007&keywords=pcf8591&qid=1618090900&s=electronics&sr=1-1)
  
  ### Mechanical structure
  ![Camera holder](![Schematic](https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/Schematic_diagram.png))
@@ -195,13 +195,12 @@ Jiaxun Hong -2538979h@student.gla.ac.uk
 
 Chaoyan Fan -2595750F@student.gla.ac.uk
 
-[Twitter](https://twitter.com/your_username) 
+[Twitter](https://twitter.com/jianzha47918304/status/1381001029836226560?s=21) 
 
-[Youtube](https://twitter.com/your_username) 
+[Youtube](https://www.youtube.com/watch?v=cMlTJh96JMU) 
 
-[Instagram](https://twitter.com/your_username) 
+[Instagram](https://www.instagram.com/glasgowteam15/) 
 
-[Facebook](https://twitter.com/your_username) 
 
 Project Link: [https://github.com/hnhkfcy/Smart-Pets-Feeder](https://github.com/hnhkfcy/Smart-Pets-Feeder)
 
@@ -209,17 +208,19 @@ Project Link: [https://github.com/hnhkfcy/Smart-Pets-Feeder](https://github.com/
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [CMake](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [CMake](https://cmake.org/cmake/help/latest/guide/tutorial/index.html#a-basic-starting-point-step-1)
 * [C++](https://www.youtube.com/watch?v=pp9xVskBMrg&list=PLE74iD3mMaPl4OKpqWkMmk0NbqO2s7KEP)
-* [FSR](https://choosealicense.com)
-* [Hardware schematic](https://pages.github.com)
-* [HX711](https://daneden.github.io/animate.css)
-* [Step Motor](https://connoratherton.com/loaders)
-* [Thread](https://kenwheeler.github.io/slick)
-* [SPI commucation](https://github.com/cferdinandi/smooth-scroll)
-* [OpenCv installation](http://leafo.net/sticky-kit)
-* [NGINX](http://jvectormap.com)
-* [STL](https://fontawesome.com)
+* [How to use git](https://blog.csdn.net/zamamiro/article/details/70172900)
+* [ReadMe template](https://github.com/othneildrew/Best-README-Template)
+* [ADC](https://github.com/berndporr/wiringPi/tree/main/wiringPi)
+* [RaspiberryPi_Pin](https://pinout.xyz/pinout/i2c#)
+* [Thread](https://github.com/au6155/ComplicatedBikeLock/blob/main/ComplicatedBikeLock/src/RFIDThread.cpp)
+* [OpenCV Installation1](https://blog.csdn.net/weixin_43287964/article/details/101696036?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+* [OpenCV installation2](https://qengineering.eu/install-opencv-4.4-on-raspberry-pi-4.html)
+* [OpenCV example](https://blog.csdn.net/shuoyueqishilove/article/details/80686143)
+* [NGINX](https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md)
+* [Raspberry Pi no wifi](https://blog.csdn.net/seanblog/article/details/110204579?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-2&spm=1001.2101.3001.4242)
+* * [Raspberry Pi Tutorial](https://wiki.dfrobot.com.cn/%E6%A0%91%E8%8E%93%E6%B4%BE4B_DFR0619_DFR0618_DFR0697_WIKI)
 
 
 
