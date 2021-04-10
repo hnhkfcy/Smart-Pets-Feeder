@@ -29,6 +29,7 @@
       <a href="#Smart-Pet-Feeder">Smart Pet Feeder</a>
       <ul>
         <li><a href="#Hardware">Hardware</a></li>
+        <li><a href="#Mechanical-structure">Mechanical structure</a></li>
       </ul>
     </li>
     <li>
