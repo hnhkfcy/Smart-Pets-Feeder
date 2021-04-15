@@ -8,7 +8,7 @@ using namespace cv;
 
 int main()
 {
-    VideoCapture cap(1);//1：调用usb摄像头，0:调用树莓派自带摄像头
+    VideoCapture cap(1);//1：调用usb摄像头，0:调用树莓派自带摄像头...
     if(!cap.isOpened())
     {
        cout<<"can't open this camera"<<endl;
