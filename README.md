@@ -72,7 +72,7 @@ This section list  major hardware that team 15 built this project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is the Embedded system project of  team 15 in the university of Glasgow.
+This is the Embedded system project of  team 15 in the university of Glasgow. we need to more details
 
 ### Prerequisites
 
