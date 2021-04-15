@@ -195,11 +195,11 @@ Jiaxun Hong -2538979h@student.gla.ac.uk
 
 Chaoyan Fan -2595750F@student.gla.ac.uk
 
-*[Twitter](https://twitter.com/jianzha47918304/status/1381001029836226560?s=21) 
+* [Twitter](https://twitter.com/jianzha47918304/status/1381001029836226560?s=21) 
 
-*[Youtube](https://www.youtube.com/watch?v=cMlTJh96JMU) 
+* [Youtube](https://www.youtube.com/watch?v=cMlTJh96JMU) 
 
-*[Instagram](https://www.instagram.com/glasgowteam15/) 
+* [Instagram](https://www.instagram.com/glasgowteam15/) 
 
 
 Project Link: [https://github.com/hnhkfcy/Smart-Pets-Feeder](https://github.com/hnhkfcy/Smart-Pets-Feeder)
