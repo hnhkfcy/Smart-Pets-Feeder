@@ -230,7 +230,7 @@ Project Link: [https://github.com/hnhkfcy/Smart-Pets-Feeder](https://github.com/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/badge/forks-3-red
 [forks-url]: https://github.com/zj736893657/Smart-Pets-Feeder/network/members
 [stars-shield]: https://img.shields.io/badge/stars-3-red
 [stars-url]: https://github.com/hnhkfcy/Smart-Pets-Feeder/stargazers
