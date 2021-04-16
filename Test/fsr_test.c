@@ -11,7 +11,7 @@ int main(void)
 	pcf8591Setup (PCF, 0x48);
 	
 	while(1){
-		pcf_value = analogRead (PCF + 0);
+		pcf_value = analogRead (PCF + 0);//this is a c document,pls update
 		printf("%d\n", pcf_value);
 		delay(10);
 	}
