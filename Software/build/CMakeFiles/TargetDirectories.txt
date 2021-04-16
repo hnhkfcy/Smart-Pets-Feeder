@@ -1,8 +1,0 @@
-/home/pi/Software/build/CMakeFiles/rebuild_cache.dir
-/home/pi/Software/build/CMakeFiles/edit_cache.dir
-/home/pi/Software/build/lib/CMakeFiles/rebuild_cache.dir
-/home/pi/Software/build/lib/CMakeFiles/lib.dir
-/home/pi/Software/build/lib/CMakeFiles/edit_cache.dir
-/home/pi/Software/build/src/CMakeFiles/rebuild_cache.dir
-/home/pi/Software/build/src/CMakeFiles/feed.dir
-/home/pi/Software/build/src/CMakeFiles/edit_cache.dir
