@@ -72,7 +72,7 @@ This section list  major hardware that team 15 built this project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is the Embedded system project of  team 15 in the university of Glasgow. we need to more details
+We are students majoring in electronic engineering and computer systems engineering at the University of Glasgow. This project is the course design of our real-time embedded system. In this course, we are the team 15.  We find that when pets-owners leave home for a long time, feeding pets is a big problem. Too much or too little food at one time can lead pets unhealthily . Therefore, we study the problem and develop a device to help the pet owners feed the pets automatically. The device can automatically release pet food and describe the amount of food eaten by pets. The camera can display the status of pets in real time at the terminal. The following are the installation preparations and methods before using the equipment:
 
 ### Prerequisites
 
