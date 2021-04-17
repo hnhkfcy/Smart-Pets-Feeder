@@ -89,7 +89,8 @@ This is an example of how to list things you need to use the software and how to
   sudo apt-get install cmake 
   ```
  
-* OpenCv
+* OpenCV
+* 
 1.update raspbian and Increase the swap-size
 
 ```
