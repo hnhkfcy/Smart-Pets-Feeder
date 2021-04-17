@@ -16,8 +16,8 @@
 
   <h3 align="center">Smart Pet Feeder</h3>
 
-  <p align="center">
-    An awesome Smart pet Feeder to jumpstart your projects!
+  <p align="left">
+    This gif is our display,  we can see that the motor rotates when there is no food in the plate , and then the cat food is poured out. Since there is a pressure sensor at the bottom of the dish below. when the dish detects that the weight reaches the set value , the motor turns back. The camera can monitor the movement of pets in real time, the pat owner can see the picture of the camera at the terminal.
     <br />
 
 
