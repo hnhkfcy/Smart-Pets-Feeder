@@ -79,10 +79,10 @@ This is the Embedded system project of  team 15 in the university of Glasgow. we
 This is an example of how to list things you need to use the software and how to install them.
 * wiringPi
   ```sh
-  sudo apt-get install wiringPi
-  ```
-  ```
   sudo apt-get update && upgrade
+  ```
+  ```
+  sudo apt-get install wiringPi
   ```
 * Cmake
   ```sh
