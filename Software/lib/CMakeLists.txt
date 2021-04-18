@@ -1,6 +1,7 @@
-AUX_SOURCE_DIRECTORY(. DIR_LIB_SRCS)
+aux_source_directory(. DIR_LIB_SRCS)
 
-SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+add_library (Lib ${DIR_LIB_SRCS})
 
-ADD_LIBRARY(lib ${DIR_LIB_SRCS})
+
+
 

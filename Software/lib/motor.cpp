@@ -1,13 +1,13 @@
 #include "motor.h"
-#include <iostream>  //C++标准库
-#include <wiringPi.h>    //树莓派GPIO库
+#include <iostream>  //C++ Standard library
+#include <wiringPi.h>    //GPIO library
 
-using namespace std;    //命名空间声明2
+using namespace std;    //Namespace Declarations
 
 void motor::motor_init()
 {
 
-		 for(auto i:m)pinMode(i, OUTPUT);  //初始化步进电机引脚
+		 for(auto i:m)pinMode(i, OUTPUT);  //Initialising stepper motor pins
 		}
 
 void motor::motopa(int zf)
@@ -24,8 +24,8 @@ void motor::motopa(int zf)
                digitalWrite(m[j], 0);
      }
           di++;
-          if(di==4){di=0;jnum++;}    //一组脉冲发完
-          if(jnum>=64){return;}         //512/2/2/2 = 64 45度
+          if(di==4){di=0;jnum++;}    //One set of pulses sent out
+          if(jnum>=128){return;}         //512/2/2 = 128 90°
           delay(2);
      }
      }
@@ -42,7 +42,7 @@ void motor::motopa(int zf)
           }
                di--;
                if(di==-1){di=3;jnum++;}
-               if(jnum>=64){return;}
+               if(jnum>=128){return;}
                delay(2);
           }
      }

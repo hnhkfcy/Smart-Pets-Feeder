@@ -1,43 +1,43 @@
 #include "hx711.h"
-#include <iostream>  //C++标准库
-#include <wiringPi.h>    //树莓派GPIO库
+#include <iostream>
+#include <wiringPi.h>
 
-using namespace std;    //命名空间声明2
+using namespace std;    //Namespace declaration
 
     
-    void hx711::set_pin(struct hx711_pin *value){  //其中一个称重的数据定义
-     value->SCK             = 2;        //引脚
-     value->SDA             = 3;        //引脚
+    void hx711::set_pin(struct hx711_pin *value){  //One weighing data definitions
+     value->SCK             = 2;
+     value->SDA             = 3;
      value->EN            = 1;
      value->coefficient    = 415;
  }
  
- void hx711::init_pin(struct hx711_pin *value){   //初始化引脚
-     pinMode(value->SCK,OUTPUT);    //输出s
-     pinMode(value->SDA,INPUT);        //输入
-     pullUpDnControl(value->SDA,PUD_UP);  //设置输入模式
+ void hx711::init_pin(struct hx711_pin *value){   //Initialize pins
+     pinMode(value->SCK,OUTPUT);
+     pinMode(value->SDA,INPUT);
+     pullUpDnControl(value->SDA,PUD_UP);  //Setting the input mode
  }
  
-  void hx711::set_pin_t(struct hx711_pin *value_t){ //其中一个称重的数据定义
-     value_t->SCK             = 5;        //引脚
-     value_t->SDA             = 4;        //引脚
+  void hx711::set_pin_t(struct hx711_pin *value_t){ //One weighing data definitions
+     value_t->SCK             = 5;
+     value_t->SDA             = 4;
      value_t->EN            = 1;
      value_t->coefficient    = 415;
  }
  
- void hx711::init_pin_t(struct hx711_pin *value_t){   //同理
+ void hx711::init_pin_t(struct hx711_pin *value_t){   //Initialize pins
      pinMode(value_t->SCK,OUTPUT);
      pinMode(value_t->SDA,INPUT);
      pullUpDnControl(value_t->SDA,PUD_UP);
  }
- //数据测量和显示
+ //Data measurement and display
 int hx711::hx711_two(struct hx711_pin *value,struct hx711_pin *value_t)
 {
      int i;int t;
-     digitalWrite(value->SCK,LOW);        //使能AD
+     digitalWrite(value->SCK,LOW);        //Enable AD
      while(digitalRead(value->SCK));
-     value->value = 0;                    //数值
-     while(digitalRead(value->SDA));        //AD转换未结束则等待。
+     value->value = 0;                    //Numerical values
+     while(digitalRead(value->SDA));       //Wait if AD conversion is not completed.
      delay(100);
      for(i=0;i<24;i++){
          digitalWrite(value->SCK,HIGH);
@@ -57,12 +57,12 @@ int hx711::hx711_two(struct hx711_pin *value,struct hx711_pin *value_t)
          i = (value->value-value->calibration+50)/value->coefficient;
      }
      if(i<5000)value->weight = i;
-     printf("1号重量：%d g  ",value->weight);
+     printf("Food barrels：%d g  ",value->weight);
      
-     digitalWrite(value_t->SCK,LOW);        //使能AD
+     digitalWrite(value_t->SCK,LOW);        //Enable AD
      while(digitalRead(value_t->SCK));
-     value_t->value_t = 0;                    //数值
-     while(digitalRead(value_t->SDA));        //AD转换未结束则等待。
+     value_t->value_t = 0;                    //Numerical values
+     while(digitalRead(value_t->SDA));     //Wait if AD conversion is not completed.
      delay(100);
      for(t=0;t<24;t++){
          digitalWrite(value_t->SCK,HIGH);
@@ -82,7 +82,7 @@ int hx711::hx711_two(struct hx711_pin *value,struct hx711_pin *value_t)
          t = (value_t->value_t-value_t->calibration+50)/value_t->coefficient;
      }
      if(t<5000)value_t->weight = t;
-     printf("2号重量：%d g\n",value_t->weight);
+     printf("Food bowls：%d g\n",value_t->weight);
      
      return value_t->weight;
      
