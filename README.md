@@ -64,6 +64,7 @@ This section list  major hardware that team 15 built this project using.
 * [StepMotor](https://www.mouser.co.uk/ProductDetail/Digilent/290-028?qs=2BBkhzTa%2F3DNnJbFjunbOw%3D%3D&mgh=1&vip=1&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QfzMtD2H3DoQ3uohFrVHCupWfeFwlW2XJY-3zUgsTIHqVt9wqRYIVAaAkdoEALw_wcB)
 * [USB-Camera](https://thepihut.com/products/8mp-1080p-usb-camera-module-1-4-cmos-imx219-mini-uvc?variant=32111049310270&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QczZxWO2GCtOTogRhd8Ozcjkz3XR-NHFeFaJuQIphNty8UBRW5rmcEaAtmgEALw_wcB)
 *  [HX711](https://www.amazon.co.uk/Weighting-Half-bridge-Amplifier-Bathroom-Arduino/dp/B07FMN1DBN/ref=sr_1_1_sspa?adgrpid=52942215837&dchild=1&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QdWy6OXk4GOaqIlU1PSPwmuxa_hkNtX2Z8Hue4HIUpGyRnexFG7HVsaAi6dEALw_wcB&hvadid=259046162843&hvdev=c&hvlocphy=9046551&hvnetw=g&hvqmt=e&hvrand=16638470403446013995&hvtargid=kwd-327727690284&hydadcr=22925_1807003&keywords=hx711&qid=1618090787&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyT1U3VjUwOVUxSlRJJmVuY3J5cHRlZElkPUEwNDk3MjY2MlpNRzRMVFRIVE9XMiZlbmNyeXB0ZWRBZElkPUEwNzgyMjM1MTNDMVNDV0ZBOTE4TiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
+*  [TAL220B](https://www.sparkfun.com/products/14729)
 *  [3D-printing](https://www.shapeways.com/business/3d-printing-services/?adgroup_id=120027049116&campaign_id=12607958069&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QcwmNZffgddThWcYH-9hcUdpckWtVPzAW5nqObyYgK9VBfsR2Dp1cQaAvbLEALw_wcB&target_id=kwd-685410368&utm_campaign=UK_3D-printing_Desktop_Exact&utm_content=509104377827&utm_medium=3D-printing&utm_source=adwords&utm_term=3d%20printing%20service)
 * [Plank](https://www.amazon.co.uk/Clas-Ohlson-Whitewood-Warp-Resistant-Edge-Laminated/dp/B08B1R1Y3P/ref=asc_df_B08B1R1Y3P/?tag=googshopuk-21&linkCode=df0&hvadid=447163472133&hvpos=&hvnetw=g&hvrand=13141452539728557175&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046551&hvtargid=pla-925355368073&psc=1&tag=&ref=&adgrpid=105563454404&hvpone=&hvptwo=&hvadid=447163472133&hvpos=&hvnetw=g&hvrand=13141452539728557175&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046551&hvtargid=pla-925355368073)
  * [pcf8591 sensor](https://www.amazon.co.uk/DollaTek-Converter-PCF8591-Arduino-Raspberry/dp/B07DJ4NVRK/ref=sr_1_1?adgrpid=58791213812&dchild=1&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QdiLRovIqvJ_iHGzLyyhBKP2hwZqBEaIlkbFK25FobLYKo6sSYwrYcaAgBMEALw_wcB&hvadid=259047910301&hvdev=c&hvlocphy=9046551&hvnetw=g&hvqmt=e&hvrand=10882352435376445668&hvtargid=kwd-295662067656&hydadcr=22927_1807007&keywords=pcf8591&qid=1618090900&s=electronics&sr=1-1)
@@ -73,7 +74,7 @@ This section list  major hardware that team 15 built this project using.
  ### Mechanical structure
  ![Camera holder](![Schematic](https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Mechanical%20Structure/rpi_camera_mount.stl))
  
-  ![Schematic](https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/Rogh_drawing.png)
+  ![Schematic](https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/Rough_drawing.png)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -172,7 +173,7 @@ Please follow these necessary steps:
     `make`  
     
 5.  Run the test file labeled Cycle_Buddy:  
-    `./Feed`
+    `./src/feed`
 
 <!-- ROADMAP -->
 ## Roadmap
