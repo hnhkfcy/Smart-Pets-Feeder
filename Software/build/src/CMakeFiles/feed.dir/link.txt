@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/feed.dir/feed.cpp.o  -o ../bin/feed  ../lib/liblib.a -lwiringPi 

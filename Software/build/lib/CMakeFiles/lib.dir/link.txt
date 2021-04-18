@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblib.a  CMakeFiles/lib.dir/hx711.cpp.o CMakeFiles/lib.dir/motor.cpp.o
-/usr/bin/ranlib liblib.a
