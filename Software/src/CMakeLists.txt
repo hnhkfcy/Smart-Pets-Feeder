@@ -1,13 +1,8 @@
-cmake_minimum_required(VERSION 3.10)
+include_directories($PROJECT_SOURCE_DIR}/lib)
 
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+aux_source_directory(./ DIR_SRCS)
 
-project(feed)
-
-aux_source_directory(. DIR_SRCS)
-
-add_executable(${PROJECT_NAME} ${DIR_SRCS})
+add_executable(feed ${DIR_SRCS})
 
 SET(OpenCV_DIR "/home/pi/Downloads/opencv-3.4.8/include/opencv2")
 
@@ -26,11 +21,11 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 message(${OpenCV_INCLUDE_DIRS})
 
 
-
 #libraries
-target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
-target_link_libraries(${PROJECT_NAME} ${CMAKE_THREAD_LIBS_INIT})
-target_link_libraries(${PROJECT_NAME} ${WIRINGPI_LIBRARIES})
+target_link_libraries(feed ${OpenCV_LIBS})
+target_link_libraries(feed ${CMAKE_THREAD_LIBS_INIT})
+target_link_libraries(feed ${WIRINGPI_LIBRARIES})
+target_link_libraries(feed Lib)
 
 
 

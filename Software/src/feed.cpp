@@ -5,10 +5,10 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <thread>
-#include "motor.h"
-#include "hx711.h"
-#include "CamThread.h"
-#include "CppThread.h"
+#include "../lib/motor.h"
+#include "../lib/hx711.h"
+#include "../lib/CamThread.h"
+#include "../lib/CppThread.h"
 
 
 
