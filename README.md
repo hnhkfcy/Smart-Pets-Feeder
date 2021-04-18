@@ -68,7 +68,8 @@ This section list  major hardware that team 15 built this project using.
 *  [3D-printing](https://www.shapeways.com/business/3d-printing-services/?adgroup_id=120027049116&campaign_id=12607958069&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QcwmNZffgddThWcYH-9hcUdpckWtVPzAW5nqObyYgK9VBfsR2Dp1cQaAvbLEALw_wcB&target_id=kwd-685410368&utm_campaign=UK_3D-printing_Desktop_Exact&utm_content=509104377827&utm_medium=3D-printing&utm_source=adwords&utm_term=3d%20printing%20service)
 * [Plank](https://www.amazon.co.uk/Clas-Ohlson-Whitewood-Warp-Resistant-Edge-Laminated/dp/B08B1R1Y3P/ref=asc_df_B08B1R1Y3P/?tag=googshopuk-21&linkCode=df0&hvadid=447163472133&hvpos=&hvnetw=g&hvrand=13141452539728557175&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046551&hvtargid=pla-925355368073&psc=1&tag=&ref=&adgrpid=105563454404&hvpone=&hvptwo=&hvadid=447163472133&hvpos=&hvnetw=g&hvrand=13141452539728557175&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046551&hvtargid=pla-925355368073)
  * [pcf8591 sensor](https://www.amazon.co.uk/DollaTek-Converter-PCF8591-Arduino-Raspberry/dp/B07DJ4NVRK/ref=sr_1_1?adgrpid=58791213812&dchild=1&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QdiLRovIqvJ_iHGzLyyhBKP2hwZqBEaIlkbFK25FobLYKo6sSYwrYcaAgBMEALw_wcB&hvadid=259047910301&hvdev=c&hvlocphy=9046551&hvnetw=g&hvqmt=e&hvrand=10882352435376445668&hvtargid=kwd-295662067656&hydadcr=22927_1807007&keywords=pcf8591&qid=1618090900&s=electronics&sr=1-1)
- 
+
+ ### GPIO connection of the Raspberry Pi 4B.
   ![Schematic](https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/GPIO_Connections.png)
  
  ### Mechanical structure
