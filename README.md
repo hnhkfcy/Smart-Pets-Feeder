@@ -68,14 +68,15 @@ This section list  major hardware that team 15 built this project using.
 *  [3D-printing](https://www.shapeways.com/business/3d-printing-services/?adgroup_id=120027049116&campaign_id=12607958069&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QcwmNZffgddThWcYH-9hcUdpckWtVPzAW5nqObyYgK9VBfsR2Dp1cQaAvbLEALw_wcB&target_id=kwd-685410368&utm_campaign=UK_3D-printing_Desktop_Exact&utm_content=509104377827&utm_medium=3D-printing&utm_source=adwords&utm_term=3d%20printing%20service)
 * [Planks](https://www.amazon.co.uk/Clas-Ohlson-Whitewood-Warp-Resistant-Edge-Laminated/dp/B08B1R1Y3P/ref=asc_df_B08B1R1Y3P/?tag=googshopuk-21&linkCode=df0&hvadid=447163472133&hvpos=&hvnetw=g&hvrand=13141452539728557175&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046551&hvtargid=pla-925355368073&psc=1&tag=&ref=&adgrpid=105563454404&hvpone=&hvptwo=&hvadid=447163472133&hvpos=&hvnetw=g&hvrand=13141452539728557175&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046551&hvtargid=pla-925355368073)
 * [Uln2003](https://www.amazon.co.uk/HALJIA-4-Phase-Stepper-ULN2003-Arduino/dp/B01DM8N9HW/ref=sr_1_3?dchild=1&keywords=uln2003&qid=1618822358&s=electronics&sr=1-3)
-
- ### GPIO connection on Raspberry Pi 4B.
-  ![Schematic](https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/GPIO_Connections.png)
  
  ### Mechanical structure
- ![Camera holder](![Schematic](https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Mechanical%20Structure/rpi_camera_mount.stl))
+
+  <div align=center><img width="600" height="600" src="https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/Rough_drawing.png"/></div>
+
+ ### GPIO connection on Raspberry Pi 4B.
  
-  ![Schematic](https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/Rough_drawing.png)
+ <div align=center><img width="600" height="600" src="https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/GPIO_Connections.png"/>
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
