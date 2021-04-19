@@ -51,7 +51,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Smart Pet Feeder
-
+If you want the detailed build process and BOM please refers to the Build Guide in Wiki.
 <img width="700" height="500" src="https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/Hardware_Schematic.png"/>
 
 
