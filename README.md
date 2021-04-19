@@ -184,8 +184,14 @@ Thread of the project: one for USB-camera, the rest for Step motor and HX711
 <!-- CONTRIBUTING -->
 ## Contributing
 
-This is an open source project, therefore, just fork it and build up the project according to the READM.md in every document.
+Any useful contributions to help us improve our work are welcome! If you wish to contribute, please follow the following steps:
 
+1.Fork the project repository
+2.Clone or download the project repository
+3.Create a new branch
+4.Make suitable changes and commit them
+5.Push the changes
+6.Submit a pull request
 
 
 <!-- LICENSE -->
