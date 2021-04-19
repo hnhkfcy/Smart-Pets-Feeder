@@ -110,6 +110,6 @@ Please follow these necessary steps:
 4.  Build the project using make:  
     `make`  
     
-5.  Run the test file labeled Cycle_Buddy:  
+5.  Run the test file labeled feed:  
     `./src/feed`
 
