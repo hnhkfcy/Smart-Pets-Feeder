@@ -212,7 +212,7 @@ Chaoyan Fan -2595750F@student.gla.ac.uk
 
 * [Twitter](https://twitter.com/jianzha47918304) 
 
-* [Youtube](https://www.youtube.com/watch?v=cMlTJh96JMU) 
+* [Youtube](https://www.youtube.com/channel/UCuKwGcIQ5zP19gaX3yx1Yhg) 
 
 * [Instagram](https://www.instagram.com/glasgowteam15/) 
 
