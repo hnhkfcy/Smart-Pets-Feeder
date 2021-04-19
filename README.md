@@ -52,8 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Smart Pet Feeder
 
- ![Schematic](https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/Hardware_Schematic.png)
-
+<img width="700" height="500" src="https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/Hardware_Schematic.png"/>
 
 
 
