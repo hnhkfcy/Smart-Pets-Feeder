@@ -57,7 +57,7 @@ int hx711::hx711_two(struct hx711_pin *value,struct hx711_pin *value_t)
          i = (value->value-value->calibration+50)/value->coefficient;
      }
      if(i<5000)value->weight = i;
-     printf("Food barrels：%d g  ",value->weight);
+     printf("Storage Box：%d g  ",value->weight);
      
      digitalWrite(value_t->SCK,LOW);        //Enable AD
      while(digitalRead(value_t->SCK));
