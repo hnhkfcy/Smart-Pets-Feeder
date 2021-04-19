@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/hnhkfcy/Smart-Pets-Feeder">
-    <img src="Images/GIF_Animation.gif" alt="SmartPetFeederGif" width="400" height="300">
+    <img src="Docs/GIF_Animation.gif" alt="SmartPetFeederGif" width="400" height="300">
   </a>
 
   <h3 align="center">Smart Pet Feeder</h3>
