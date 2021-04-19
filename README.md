@@ -71,13 +71,12 @@ This section list  major hardware that team 15 built this project using.
  
  ### Mechanical structure
 
-  <div align=center><img width="600" height="600" src="https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/Rough_drawing.png"/></div>
-  
-<div align=left> ### GPIO connection on Raspberry Pi 4B.
+ <img width="600" height="600" src="https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/Rough_drawing.png"/>
  
- <div align=center><img width="600" height="600" src="https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/GPIO_Connections.png"/>
+ ### GPIO connection on Raspberry Pi 4B.
+ 
+<img width="600" height="600" src="https://github.com/hnhkfcy/Smart-Pets-Feeder/blob/master/Schematics/GPIO_Connections.png"/>
 
-<div align=left>
 <!-- GETTING STARTED -->
 ## Getting Started
 
